@@ -1,14 +1,28 @@
-.sky-button {
-  appearance: none;
+.sky-button > button {
   padding-inline: 8px;
+  border-width: 0px;
+  border-radius: 0px;
+  border-style: solid;
+  font-size: small;
 }
 
-.sky-button[data-type="primary"] {
+.sky-button:not(.sky-button[data-disabled='true']):hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.sky-button[data-disabled='true'] {
+  background-color: gray;
+  color: aliceblue;
+  cursor: not-allowed;
+}
+
+.sky-button[data-type="primary"]:not(.sky-button[data-disabled='true']):not(:hover) {
   background-color: green;
   color: white;
 }
 
-.sky-button[data-type="danger"] {
+.sky-button[data-type="danger"]:not(.sky-button[data-disabled='true']):not(:hover) {
   background-color: red;
   color: white;
 }

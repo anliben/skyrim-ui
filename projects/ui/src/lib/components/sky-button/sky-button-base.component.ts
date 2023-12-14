@@ -7,5 +7,7 @@ export class SkyButtonBaseComponent {
 
   @Input('s-type') type: SkyButtonType = SkyButtonType.primary;
 
+  @Input('s-disabled') disabled: boolean = false;
+
   @Output('s-click') click = new EventEmitter<any>();
 }
