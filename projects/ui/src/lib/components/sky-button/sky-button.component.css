@@ -1,0 +1,14 @@
+.sky-button {
+  appearance: none;
+  padding-inline: 8px;
+}
+
+.sky-button[data-type="primary"] {
+  background-color: green;
+  color: white;
+}
+
+.sky-button[data-type="danger"] {
+  background-color: red;
+  color: white;
+}
