@@ -1,4 +1,4 @@
 export enum SkyButtonType {
   danger = 'danger',
-  primary = 'primary',
+  primary = 'primary'
 }

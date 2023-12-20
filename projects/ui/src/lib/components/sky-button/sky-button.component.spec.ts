@@ -11,9 +11,8 @@ describe('SkyButtonComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SkyButtonComponent ]
-    })
-    .compileComponents();
+      declarations: [SkyButtonComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -30,7 +29,7 @@ describe('SkyButtonComponent', () => {
     spyOn(component, 'onClick');
 
     component.onClick();
-    
+
     expect(component.onClick).toHaveBeenCalled();
   });
 });

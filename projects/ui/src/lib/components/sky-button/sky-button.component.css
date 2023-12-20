@@ -17,12 +17,12 @@
   cursor: not-allowed;
 }
 
-.sky-button[data-type="primary"]:not(.sky-button[data-disabled='true']):not(:hover) {
+.sky-button[data-type='primary']:not(.sky-button[data-disabled='true']):not(:hover) {
   background-color: green;
   color: white;
 }
 
-.sky-button[data-type="danger"]:not(.sky-button[data-disabled='true']):not(:hover) {
+.sky-button[data-type='danger']:not(.sky-button[data-disabled='true']):not(:hover) {
   background-color: red;
   color: white;
 }

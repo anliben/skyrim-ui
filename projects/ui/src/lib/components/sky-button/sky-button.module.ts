@@ -4,6 +4,6 @@ import { SkyButtonComponent } from './sky-button.component';
 @NgModule({
   imports: [],
   exports: [SkyButtonComponent],
-  declarations: [SkyButtonComponent],
+  declarations: [SkyButtonComponent]
 })
 export class SkyButtonModule {}

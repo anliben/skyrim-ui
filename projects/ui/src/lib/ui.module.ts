@@ -3,11 +3,7 @@ import { SkyComponentsModule } from './components';
 
 @NgModule({
   declarations: [],
-  imports: [
-    SkyComponentsModule
-  ],
-  exports: [
-    SkyComponentsModule
-  ]
+  imports: [SkyComponentsModule],
+  exports: [SkyComponentsModule]
 })
-export class UiModule { }
+export class UiModule {}

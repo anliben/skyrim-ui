@@ -6,6 +6,6 @@ import { SkyButtonModule } from './sky-button/sky-button.module';
   exports: [SkyButtonModule],
   providers: [],
   bootstrap: [],
-  declarations: [],
+  declarations: []
 })
 export class SkyComponentsModule {}

@@ -1,1 +1,1 @@
-export * from './interfaces/sky-button-type.enum'
+export * from './interfaces/sky-button-type.enum';
