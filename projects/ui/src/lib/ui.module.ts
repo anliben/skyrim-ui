@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { SkyComponentsModule } from './components';
 
-
 @NgModule({
   declarations: [],
   imports: [

@@ -25,4 +25,12 @@ describe('SkyButtonComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should call onClick', () => {
+    spyOn(component, 'onClick');
+
+    component.onClick();
+    
+    expect(component.onClick).toHaveBeenCalled();
+  });
 });
